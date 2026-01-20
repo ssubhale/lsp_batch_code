@@ -1,0 +1,18 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <sys/shm.h>
+
+
+int main(void)
+{
+    int id = 0;
+
+    id = shmget(11, 1024, 0666);
+
+    if (id != -1)
+    {
+        printf("Shared memory gets allocated by server\n");
+    }
+
+    return 0;
+}

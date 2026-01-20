@@ -1,0 +1,20 @@
+ls | wc -l
+
+ls | wc -l > pipe.txt
+
+
+Shell script wild card operator
+
+<
+
+>
+
+>>
+
+|
+
+lexi pen
+
+
+run the pipe process using >> // ./writer.exe | ./reader.exe
+
