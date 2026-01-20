@@ -1,0 +1,61 @@
+
+## Mode of operating system
+1). Real mode 
+2). Protected mode
+
+
+
+## 2 .Switch
+1). Mode switch
+2). Context switch (Context means the vital information about the running process)
+
+
+## Operating system state / mode
+1). User mode/state
+2). Kernel mode/state
+
+## Process scheduler
+
+
+
+## IPC (Inter Process Comunication)
+
+Address bus capacity is immportant rather than the RAM (If the RAM is 20GB but the address bus capacity is 8GB then
+the 12GB RAM is only assumption)
+
+
+1). In real mode one process runs at a time (It is feature not a drawback)
+Dont call me I will call you.
+
+2). Protected mode
+Call me whenever you need me.
+
+
+IPS means the the communication in between the minimum two process to interchange the information
+
+TCP IP protocol by Unix System V
+
+Socket programming (Every socket programming is inherited from the Unix operating system socket programming)
+
+
+-Named pipe
+mkfifo()
+
+-Unamed pipe
+pipe()
+
+-Shared memory (functions)
+shmget()
+shmat()
+shmdt()
+
+-Message queue (functions)
+msgget()
+msgsnd()
+msgrcv()
+
+-Signals
+signal()
+kill()
+
+-Socket
