@@ -1,0 +1,27 @@
+void * CapitalThread(void *ptr)
+{
+    int fd = 0;
+    int iRet = 0;
+    int iCount = 0;
+    int iCounter = 0;
+    int chBuffer[BUFFER_SIZE] = {'\0'};
+
+    fd = open("./ppa.txt", O_RDONLY);
+
+    while (iRet == read(fd, chBuffer, BUFFER_SIZE) != 0)
+    {
+        for (iCounter = 0; iCounter < iRet; iCounter++)
+        {
+            if ((chBuffer[iCounter] >= 'A') && (chBuffer[iCounter] <= 'Z'))
+            {
+                iCount++;
+            }
+        }
+    }
+
+    close(fd);
+
+    printf("Number of capital letters : %d\n", iCount);
+
+    return NULL;
+}

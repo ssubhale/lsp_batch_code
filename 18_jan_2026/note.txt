@@ -1,0 +1,34 @@
+Multitasking
+
+Multithreading and Multiprocessing
+
+
+pthread library APIs
+
+pthread_create()
+pthread_exit()
+pthread_join()
+
+
+
+GIL in python multithreading
+
+
+
+pthread compliation process follow the following commands
+
+gcc demo.c -o myexe.exe
+
+gcc demo.c -o myexe.exe -pthread
+
+gcc demo.c -o myexe.exe -lthread
+
+
+
+10 no chya program madhe error aahe
+
+
+
+IO bound operation use multithrading
+CPU execution then use multiprocessing
+
