@@ -1,0 +1,71 @@
+
+# makefile
+
+    make (1200 page book)
+
+    VI Editior (for linux platform) (1500 page book)    (How to use VI editor)
+
+
+    Make Concept
+
+    Build process automation tool
+
+    from editor to linker is process called build process
+
+    >> gcc -c demo.c -o demo.o          (Just only compile the file)
+
+
+    On resume >> IPC, Makefile
+
+
+## Project github contain following files
+
+    Main.c              (single)
+    Helper.c            (multiple)
+    Myheader.h          (multiple)
+    Makefile            (single)            (first M always capital)
+    readme              (single)
+
+
+
+# CC = gcc        (Variable creation inside the Makefile)
+
+
+>> gcc main.c helper.c -o myexe.exe
+
+
+# Compile multiple files
+
+>> gcc -c main.c -o main.o
+>> gcc -c helper.c -o helper.o
+>> gcc main.o helper.o -o app
+
+
+Device driver is the = 
+
+
+
+To see the which modules are currently inserted and running in kernel module
+
+>> lsmod
+>> lsmod > lsmod.txt
+
+
+
+To see the kernel diary where all the logs are written by kernel
+
+>> sudo dmesg
+
+>> sudo dmesg > dmesglog.txt
+
+
+
+To check kernel version
+
+>> uname -r 
+
+
+
+BIOS (Basic Input Output System) 
+When selection of OS system the keyboard and mouse are active because thte BIOS device drivers are presetn there.
+

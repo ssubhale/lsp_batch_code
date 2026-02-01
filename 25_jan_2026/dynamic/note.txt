@@ -1,0 +1,36 @@
+
+
+# Library
+
+Linking 1)static and 2)dynamic
+
+        Load it, Use it and Unload it
+        Allocate, Use and Free
+
+
+        static extension .a
+        dynamic extension .so
+
+        # Linux
+            dlopen()
+            dlclose()
+            dlsym()
+
+
+        # Windows
+            loadlibrary()
+            getprocaddress()
+            freelibrary()
+
+
+Command to create the .so file
+>> gcc -fPIC -shared -o server_01.so server_01.c
+
+>> gcc -fPIC -shared -o libserver_01.so server_01.c         // Better for library creation
+
+Command to compile the client .exe file
+
+>> gcc client_01.c -o client.exe -ldl
+
+# Create your own string.h, math.h and create .so and use those .so in your program
+

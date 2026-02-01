@@ -1,0 +1,25 @@
+
+# static library linking
+
+    from .c to .o then .o to .a
+
+    >> gcc -c server_01.c -o server_01.o        // from .c to .o
+
+    >> ar rcs libserver_01.a server_01.o        // from .o to .a
+
+    ar arkine utility
+    r replace, c create, s symbol index
+
+
+    # Command to link and compile the client in static linking
+
+    >> gcc client_01.c -L. libserver_01.a -o client_01.exe
+
+
+# Task
+
+clone of string.h 
+clone of math.h
+
+# Create the static and Dynamic library of Data Structure code
+

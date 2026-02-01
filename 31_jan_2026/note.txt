@@ -1,0 +1,7 @@
+
+OS = Kernel + Shell + Other Utilities
+
+Shell = CUI and GUI
+
+Kernel = (Mono, Micro and Hybrid)
+

@@ -1,0 +1,98 @@
+
+Operating System have the 3 subsystems
+        1) File, 2) Process, 3) Memory, 4) CPU Scheduling, 5) Hardware Abstraction
+
+    1) File 
+    2) Process
+    3) Memory
+
+# Storage Devices
+
+    1) RAM & ROM Primary
+    2) HDD Secondary
+
+
+    # Four parts of ROM
+        ROM
+        E ROM
+        P ROM
+        EPE ROM
+
+
+Microprocessor generate the data as per its
+
+
+Cache Memory
+    1) L1
+    2) L2
+    3) L3
+
+
+# Concept of RAM (Program execution, .exe file)
+
+# Microprocessor (ALU, CU, FPU)
+
+# Fetch, Decode and Execute (Steps of program execution)
+
+
+
+# Mono Kernel       (All management in one)
+# Micro Kernel      (All management are in separate)
+# Hybrid Kernel
+
+# Advantages and Disadvantages Mono, Micro Kernel and Hybrid Kernel
+
+
+# Have to know the 5 OS of Windows, Mac and Linux
+
+
+# Auxilary data
+
+    Algorithms
+
+    1) Process Table
+    2) U Pointer
+    3) IIT
+    4) U Area       1) Process Table, 2) File Table
+
+# Process State Transition Diagram
+
+# Kernel is always in to the active mode
+
+
+
+# Sys Call Table for the systems Call
+
+
+# Switches
+
+    1) Mode Switch
+    2) Context Switch
+
+
+To maintain self integrity OS didnt switch from kernel mode
+
+Preantion of OS in kernel mode
+
+
+
+Stack 1) User, 2) Kernel, 3) Context
+
+
+All sys calls have the table which sys call number and its address
+
+Address Space => 
+
+One system call didnt call internally another system call hence single stack frame is present in kernel stack
+
+
+
+# Context Switch
+    Its contains the vital vital information of running process
+
+
+# Nice value
+
+
+# Priority, Waiting Time, Cumulating Time
+
