@@ -1,0 +1,18 @@
+
+
+Server 
+    1) socket()
+    2) bind()
+    3) listen()
+    4) accept()
+
+Client
+    1) socket()
+    2) connect()
+
+
+
+// lock the file which we are reading 
+
+// When we reading the file, if any other access it and change its contents then we will not get the exact output
+
