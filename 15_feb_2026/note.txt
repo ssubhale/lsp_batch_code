@@ -1,0 +1,11 @@
+Use keyboard not the mouse
+
+
+
+>> grep command implementation homework
+
+>> regexr.com site for regular expression
+
+
+
+>> implement the ps command on the 
