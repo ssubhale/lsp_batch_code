@@ -1,0 +1,16 @@
+
+Process Memory Inpector Project
+
+Text    (Code)
+
+Data            BSS and Non BSS
+
+Stack
+
+Heap
+
+Gap (Poteintial Gap)
+
+
+envp character pointer array ending with NULL
+
