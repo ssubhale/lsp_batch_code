@@ -1,0 +1,10 @@
+Kernel Module
+
+.ko files
+
+
+Major and Minor number
+
+which device driver for which device
+
+# File generation of kernel object => hello.c -> hello.i -> hello.s -> hello.o -> hello.ko
